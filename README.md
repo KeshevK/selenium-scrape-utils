@@ -1,15 +1,15 @@
-# selenium-ai
+# selenium-scrape-utils
 <p align="center">
 
-<a href="https://pypi.python.org/pypi/selenium_ai">
-<img src="https://img.shields.io/pypi/v/selenium_ai.svg" /></a>
-<a href="https://travis-ci.org/KeshevK/selenium_ai"><img src="https://travis-ci.org/KeshevK/selenium_ai.svg?branch=master" /></a>
+<a href="https://pypi.python.org/pypi/selenium_scrape_utils">
+<img src="https://img.shields.io/pypi/v/selenium_scrape_utils.svg" /></a>
+<a href="https://travis-ci.org/KeshevK/selenium_scrape_utils"><img src="https://travis-ci.org/KeshevK/selenium_scrape_utils.svg?branch=master" /></a>
 </p>
 AI utility functions for webscraping and selenium automation scripts
 
 ## Installation
 
-    pip install selenium-ai
+    pip install selenium-scrape-utils
 
 ## Requirements
 
@@ -17,7 +17,7 @@ AI utility functions for webscraping and selenium automation scripts
 * Requires selenium, bs4
 * Requires installation of geckodriver compatible with selenium. Read about setup [here](https://selenium-python.readthedocs.io/installation.html)
 
-<sub><sup>[back to top](#selenium-ai)</sub></sup>
+<sub><sup>[back to top](#selenium-scrape-utils)</sub></sup>
 
 ## Features
 
@@ -27,7 +27,7 @@ The following features are available:
 
 ### Find Elements by Attribute Pattern
 
-    from selenium_ai import ElementFinder
+    from selenium_scrape_utils import ElementFinder
 
     from selenium import webdriver
     driver = webdriver.Firefox()
