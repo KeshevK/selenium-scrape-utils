@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/pypi/v/selenium_scrape_utils.svg" /></a>
 <a href="https://travis-ci.org/KeshevK/selenium_scrape_utils"><img src="https://travis-ci.org/KeshevK/selenium_scrape_utils.svg?branch=master" /></a>
 </p>
-AI utility functions for webscraping and selenium automation scripts
+Utility functions for webscraping and selenium automation scripts
 
 ## Installation
 
